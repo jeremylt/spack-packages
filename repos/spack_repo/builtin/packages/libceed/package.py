@@ -41,7 +41,7 @@ class Libceed(MakefilePackage, CudaPackage, ROCmPackage):
     variant("magma", default=False, description="Enable MAGMA backend", when="@0.6:")
     variant("openmp", default=False, description="Enable OpenMP support")
     variant("shared", default=True, description="Build shared libraries")
-    variant("occa", default=False, description="Enable OCCA backends", when="@0.1:0.12.0")
+    variant("occa", default=False, description="Enable OCCA backends", when="@0.2:0.12.0")
 
     conflicts("+rocm", when="@:0.7")
 
