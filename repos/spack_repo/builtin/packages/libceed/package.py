@@ -20,6 +20,7 @@ class Libceed(MakefilePackage, CudaPackage, ROCmPackage):
     license("BSD-2-Clause")
 
     version("develop", branch="main")
+    version("1.1.0", tag="v1.1.0", commit="3e98d546622c05ba46cfce6d4ba2e7d0b9ad4b97")
     version("1.0.1", tag="v1.0.1", commit="cbcc9c934bce2efc324fbd2edf95032911109353")
     version("1.0.0", tag="v1.0.0", commit="8a374e8d5d8d33fd19ce69a93026384ec1046a86")
     version("0.12.0", tag="v0.12.0", commit="4018a20a98d451fac24765d3ddb936861647ce8d")
